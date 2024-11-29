@@ -1,0 +1,3003 @@
+!SESSION 2023-10-24 14:15:09.344 -----------------------------------------------
+eclipse.buildId=4.20.0.202309081654
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ZA
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\HP\Documents\Bootcamp\Spring\Workspace -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-24 14:15:12.092
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-10-24 14:15:18.834
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-24 14:15:18.834
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-24 14:15:28.949
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HP'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:17:26.890
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:17:26.892
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:17:26.894
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:17:26.982
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-24 14:17:27.044
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin\javaw.exe
+-cp
+C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/HP/Documents/Bootcamp/Spring/Workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1698149847043
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:17:27.045
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-24 14:17:27.580
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 5192
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:17:32.479
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:10.152
+!MESSAGE Classpath changed for project: tacocloud-domain-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:15.052
+!MESSAGE Classpath changed for project: tacocloud-domain-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:15.059
+!MESSAGE Boot project ADDED: tacocloud-domain-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:23.481
+!MESSAGE Classpath changed for project: tacocloud-domain-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:23.498
+!MESSAGE Classpath changed for project: tacocloud-data-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:23.499
+!MESSAGE Boot project ADDED: tacocloud-data-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:23.499
+!MESSAGE Classpath changed for project: tacocloud-web-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:23.505
+!MESSAGE Boot project ADDED: tacocloud-web-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:30.444
+!MESSAGE Classpath changed for project: tacocloud-web-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:30.447
+!MESSAGE Classpath changed for project: taco-cloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:30.448
+!MESSAGE Boot project ADDED: taco-cloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:38.994
+!MESSAGE Classpath changed for project: taco-cloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:38.995
+!MESSAGE Classpath changed for project: taco-cloud-sd-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:38.996
+!MESSAGE Boot project ADDED: taco-cloud-sd-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:45.585
+!MESSAGE Classpath changed for project: taco-cloud-sd-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:45.586
+!MESSAGE Classpath changed for project: tacocloud-email-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:50.392
+!MESSAGE Classpath changed for project: tacocloud-email-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:50.394
+!MESSAGE Boot project ADDED: tacocloud-email-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:53.720
+!MESSAGE Classpath changed for project: rsocket-reqstream-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:53.720
+!MESSAGE Boot project ADDED: rsocket-reqstream-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:57.114
+!MESSAGE Classpath changed for project: rsocket-reqstream-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:26:57.115
+!MESSAGE Classpath changed for project: taco-cloud-sd-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:01.130
+!MESSAGE Classpath changed for project: taco-cloud-sd-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:01.130
+!MESSAGE Boot project ADDED: taco-cloud-sd-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:10.294
+!MESSAGE Classpath changed for project: taco-cloud-sd-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:10.294
+!MESSAGE Classpath changed for project: hello-reactive
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:10.295
+!MESSAGE Boot project ADDED: hello-reactive
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:10.296
+!MESSAGE Classpath changed for project: tacocloud-messaging-rabbitmq
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:10.297
+!MESSAGE Boot project ADDED: tacocloud-messaging-rabbitmq
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:13.150
+!MESSAGE Classpath changed for project: tacocloud-domain-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:13.152
+!MESSAGE Boot project ADDED: tacocloud-domain-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:14.840
+!MESSAGE Classpath changed for project: tacocloud-domain-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:16.546
+!MESSAGE Classpath changed for project: tacocloud-messaging-jms-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:16.547
+!MESSAGE Boot project ADDED: tacocloud-messaging-jms-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:20.549
+!MESSAGE Classpath changed for project: tacocloud-kitchen
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:20.550
+!MESSAGE Boot project ADDED: tacocloud-kitchen
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:22.388
+!MESSAGE Classpath changed for project: tacocloud-kitchen
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-10-24 14:27:22.980
+!MESSAGE Marker id 188 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/tacocloud-kitchen/pom.xml)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttributes(Marker.java:163)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.updateMarker(LSPDiagnosticsToMarkers.java:195)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers$1.runInWorkspace(LSPDiagnosticsToMarkers.java:170)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-10-24 14:27:22.986
+!MESSAGE Marker id 188 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttributes(Marker.java:163)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.updateMarker(LSPDiagnosticsToMarkers.java:195)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers$1.runInWorkspace(LSPDiagnosticsToMarkers.java:170)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-10-24 14:27:22.987
+!MESSAGE Marker id 189 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/tacocloud-kitchen/pom.xml)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttributes(Marker.java:163)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.updateMarker(LSPDiagnosticsToMarkers.java:195)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers$1.runInWorkspace(LSPDiagnosticsToMarkers.java:170)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-10-24 14:27:22.987
+!MESSAGE Marker id 189 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttributes(Marker.java:163)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.updateMarker(LSPDiagnosticsToMarkers.java:195)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers$1.runInWorkspace(LSPDiagnosticsToMarkers.java:170)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:27:26.924
+!MESSAGE Classpath changed for project: tacocloud-kitchen
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:01.959
+!MESSAGE Classpath changed for project: tacocloud-messaging-noop
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:01.960
+!MESSAGE Boot project ADDED: tacocloud-messaging-noop
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:01.960
+!MESSAGE Classpath changed for project: tacocloud-ui-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:37.114
+!MESSAGE Classpath changed for project: rsocket-reqstream-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:37.114
+!MESSAGE Boot project ADDED: rsocket-reqstream-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:37.115
+!MESSAGE Classpath changed for project: tacocloud-ui-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:40.992
+!MESSAGE Classpath changed for project: rsocket-reqstream-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:40.993
+!MESSAGE Classpath changed for project: tacocloud-kitchen-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:40.994
+!MESSAGE Boot project ADDED: tacocloud-kitchen-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:42.983
+!MESSAGE Classpath changed for project: tacocloud-kitchen-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:44.555
+!MESSAGE Classpath changed for project: tacocloud-messaging-rabbitmq-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:44.556
+!MESSAGE Boot project ADDED: tacocloud-messaging-rabbitmq-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:46.641
+!MESSAGE Classpath changed for project: tacocloud-messaging-rabbitmq-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:48.201
+!MESSAGE Classpath changed for project: auth-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:48.206
+!MESSAGE Boot project ADDED: auth-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:50.441
+!MESSAGE Classpath changed for project: auth-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:52.454
+!MESSAGE Classpath changed for project: taco-cloud-jdbctemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:52.455
+!MESSAGE Boot project ADDED: taco-cloud-jdbctemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:57.452
+!MESSAGE Classpath changed for project: taco-cloud-jdbctemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:57.452
+!MESSAGE Classpath changed for project: rsocket-reqres-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:28:57.453
+!MESSAGE Boot project ADDED: rsocket-reqres-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:01.480
+!MESSAGE Classpath changed for project: rsocket-reqres-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:01.480
+!MESSAGE Classpath changed for project: rsocket-reqres-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:01.481
+!MESSAGE Boot project ADDED: rsocket-reqres-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:03.413
+!MESSAGE Classpath changed for project: rsocket-reqres-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:06.492
+!MESSAGE Classpath changed for project: tacocloud-domain
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:06.493
+!MESSAGE Boot project ADDED: tacocloud-domain
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:08.552
+!MESSAGE Classpath changed for project: tacocloud-data
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:08.553
+!MESSAGE Boot project ADDED: tacocloud-data
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:11.458
+!MESSAGE Classpath changed for project: tacocloud-data
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:11.459
+!MESSAGE Classpath changed for project: tacocloud-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:11.460
+!MESSAGE Boot project ADDED: tacocloud-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:15.865
+!MESSAGE Classpath changed for project: tacocloud-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:15.898
+!MESSAGE Classpath changed for project: tacocloud-restclient-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:15.899
+!MESSAGE Boot project ADDED: tacocloud-restclient-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:20.692
+!MESSAGE Classpath changed for project: tacocloud-restclient-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:20.693
+!MESSAGE Classpath changed for project: taco-cloud-sfc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:20.694
+!MESSAGE Boot project ADDED: taco-cloud-sfc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:24.175
+!MESSAGE Classpath changed for project: taco-cloud-sfc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:49.963
+!MESSAGE Classpath changed for project: tacocloud-email
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:49.964
+!MESSAGE Boot project ADDED: tacocloud-email
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:49.964
+!MESSAGE Classpath changed for project: tacocloud-ui
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:54.030
+!MESSAGE Classpath changed for project: tacocloud-email
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:54.030
+!MESSAGE Classpath changed for project: tacocloud-data-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:54.031
+!MESSAGE Boot project ADDED: tacocloud-data-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:57.388
+!MESSAGE Classpath changed for project: tacocloud-data-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:57.389
+!MESSAGE Classpath changed for project: tacocloud-security-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:57.390
+!MESSAGE Boot project ADDED: tacocloud-security-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:59.832
+!MESSAGE Classpath changed for project: tacocloud-messaging-noop-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:29:59.849
+!MESSAGE Boot project ADDED: tacocloud-messaging-noop-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:01.720
+!MESSAGE Classpath changed for project: tacocloud-api-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:01.721
+!MESSAGE Boot project ADDED: tacocloud-api-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:03.426
+!MESSAGE Classpath changed for project: tacocloud-api-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:05.782
+!MESSAGE Classpath changed for project: tacocloud-api-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:05.783
+!MESSAGE Classpath changed for project: tacocloud-messaging-kafka-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:08.210
+!MESSAGE Classpath changed for project: tacocloud-messaging-kafka-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:08.211
+!MESSAGE Boot project ADDED: tacocloud-messaging-kafka-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:08.212
+!MESSAGE Classpath changed for project: rsocket-fireandforget-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:10.284
+!MESSAGE Classpath changed for project: rsocket-fireandforget-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:10.284
+!MESSAGE Boot project ADDED: rsocket-fireandforget-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:12.332
+!MESSAGE Classpath changed for project: rsocket-fireandforget-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:12.332
+!MESSAGE Classpath changed for project: rsocket-fireandforget-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:12.333
+!MESSAGE Boot project ADDED: rsocket-fireandforget-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:16.089
+!MESSAGE Classpath changed for project: rsocket-fireandforget-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:16.090
+!MESSAGE Classpath changed for project: taco-cloud-sd-jdbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:16.091
+!MESSAGE Boot project ADDED: taco-cloud-sd-jdbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:21.549
+!MESSAGE Classpath changed for project: taco-cloud-sd-jdbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:21.550
+!MESSAGE Classpath changed for project: admin-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:21.552
+!MESSAGE Boot project ADDED: admin-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:24.505
+!MESSAGE Classpath changed for project: admin-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:24.509
+!MESSAGE Classpath changed for project: tacocloud-messaging-jms
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:24.510
+!MESSAGE Boot project ADDED: tacocloud-messaging-jms
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:27.124
+!MESSAGE Classpath changed for project: taco-cloud-sd-cassandra
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:27.125
+!MESSAGE Boot project ADDED: taco-cloud-sd-cassandra
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:33.514
+!MESSAGE Classpath changed for project: taco-cloud-sd-cassandra
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:33.519
+!MESSAGE Classpath changed for project: tacocloud-web-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:33.520
+!MESSAGE Boot project ADDED: tacocloud-web-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:36.960
+!MESSAGE Classpath changed for project: tacocloud-web-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:36.962
+!MESSAGE Classpath changed for project: tacocloud-security-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:36.963
+!MESSAGE Boot project ADDED: tacocloud-security-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:39.088
+!MESSAGE Classpath changed for project: tacocloud-security-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:40.854
+!MESSAGE Classpath changed for project: tacocloud-security-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:40.857
+!MESSAGE Classpath changed for project: tacocloud-messaging-noop-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:40.858
+!MESSAGE Boot project ADDED: tacocloud-messaging-noop-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:43.394
+!MESSAGE Classpath changed for project: tacocloud-api-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:43.395
+!MESSAGE Boot project ADDED: tacocloud-api-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:48.481
+!MESSAGE Classpath changed for project: tacocloud-api-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:48.491
+!MESSAGE Classpath changed for project: tacocloud-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:48.491
+!MESSAGE Boot project ADDED: tacocloud-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:52.331
+!MESSAGE Classpath changed for project: tacocloud-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:52.332
+!MESSAGE Classpath changed for project: tacocloud-messaging-kafka-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:52.332
+!MESSAGE Boot project ADDED: tacocloud-messaging-kafka-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:54.451
+!MESSAGE Classpath changed for project: tacocloud-messaging-kafka-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:56.081
+!MESSAGE Classpath changed for project: rsocket-reqres-server-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:56.082
+!MESSAGE Boot project ADDED: rsocket-reqres-server-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:58.065
+!MESSAGE Classpath changed for project: rsocket-reqres-server-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:58.065
+!MESSAGE Classpath changed for project: rsocket-reqres-client-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:30:58.066
+!MESSAGE Boot project ADDED: rsocket-reqres-client-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:00.354
+!MESSAGE Classpath changed for project: rsocket-reqres-client-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:00.354
+!MESSAGE Classpath changed for project: tacocloud-messaging-rabbitmq-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:00.355
+!MESSAGE Boot project ADDED: tacocloud-messaging-rabbitmq-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:01.991
+!MESSAGE Classpath changed for project: tacocloud-messaging-rabbitmq-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:04.262
+!MESSAGE Classpath changed for project: tacocloud-messaging-rabbitmq-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:04.289
+!MESSAGE Classpath changed for project: tacocloud-email-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:04.291
+!MESSAGE Boot project ADDED: tacocloud-email-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:06.984
+!MESSAGE Classpath changed for project: tacocloud-email-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:06.985
+!MESSAGE Classpath changed for project: rsocket-channel-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:06.992
+!MESSAGE Boot project ADDED: rsocket-channel-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:12.698
+!MESSAGE Classpath changed for project: rsocket-channel-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:12.699
+!MESSAGE Classpath changed for project: reactor-fun
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:12.699
+!MESSAGE Boot project ADDED: reactor-fun
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:12.715
+!MESSAGE Classpath changed for project: tacocloud-messaging-jms-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:12.716
+!MESSAGE Boot project ADDED: tacocloud-messaging-jms-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:12.717
+!MESSAGE Classpath changed for project: tacocloud-restclient-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:12.717
+!MESSAGE Boot project ADDED: tacocloud-restclient-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:15.345
+!MESSAGE Classpath changed for project: tacocloud-messaging-jms-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:15.347
+!MESSAGE Classpath changed for project: tacocloud-jmx
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:15.348
+!MESSAGE Boot project ADDED: tacocloud-jmx
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:17.520
+!MESSAGE Classpath changed for project: rsocket-channel-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:17.530
+!MESSAGE Boot project ADDED: rsocket-channel-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:19.849
+!MESSAGE Classpath changed for project: rsocket-channel-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:19.849
+!MESSAGE Classpath changed for project: tacocloud-web
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:19.850
+!MESSAGE Boot project ADDED: tacocloud-web
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:23.483
+!MESSAGE Classpath changed for project: tacocloud-web
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:23.485
+!MESSAGE Classpath changed for project: tacocloud-admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:23.490
+!MESSAGE Boot project ADDED: tacocloud-admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:25.422
+!MESSAGE Classpath changed for project: tacocloud-admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:25.422
+!MESSAGE Classpath changed for project: tacocloud-kitchen-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:25.423
+!MESSAGE Boot project ADDED: tacocloud-kitchen-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:27.322
+!MESSAGE Classpath changed for project: tacocloud-kitchen-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:27.322
+!MESSAGE Classpath changed for project: tacocloud-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:29.822
+!MESSAGE Classpath changed for project: tacocloud-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:29.823
+!MESSAGE Boot project ADDED: tacocloud-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:29.823
+!MESSAGE Classpath changed for project: tacocloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:29.824
+!MESSAGE Boot project ADDED: tacocloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:33.305
+!MESSAGE Classpath changed for project: tacocloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:35.964
+!MESSAGE Classpath changed for project: tacocloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:35.964
+!MESSAGE Classpath changed for project: tacocloud-restclient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:35.972
+!MESSAGE Boot project ADDED: tacocloud-restclient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:38.710
+!MESSAGE Classpath changed for project: tacocloud-messaging-kafka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:38.710
+!MESSAGE Boot project ADDED: tacocloud-messaging-kafka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:38.711
+!MESSAGE Classpath changed for project: tacocloud-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:38.711
+!MESSAGE Boot project ADDED: tacocloud-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:31:42.243
+!MESSAGE Classpath changed for project: tacocloud-mongodb
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-10-24 14:31:42.999
+!MESSAGE Marker id 649 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/tacocloud-mongodb/pom.xml)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttributes(Marker.java:163)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.updateMarker(LSPDiagnosticsToMarkers.java:195)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers$1.runInWorkspace(LSPDiagnosticsToMarkers.java:170)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-10-24 14:31:43.000
+!MESSAGE Marker id 649 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttributes(Marker.java:163)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.updateMarker(LSPDiagnosticsToMarkers.java:195)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers$1.runInWorkspace(LSPDiagnosticsToMarkers.java:170)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-10-24 14:31:43.009
+!MESSAGE Marker id 650 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/tacocloud-mongodb/pom.xml)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttributes(Marker.java:163)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.updateMarker(LSPDiagnosticsToMarkers.java:195)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers$1.runInWorkspace(LSPDiagnosticsToMarkers.java:170)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-10-24 14:31:43.009
+!MESSAGE Marker id 650 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttributes(Marker.java:163)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.updateMarker(LSPDiagnosticsToMarkers.java:195)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers$1.runInWorkspace(LSPDiagnosticsToMarkers.java:170)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:32:24.389
+!MESSAGE Classpath changed for project: tacocloud-kitchen
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:32:24.390
+!MESSAGE Classpath changed for project: rsocket-reqstream-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:32:27.179
+!MESSAGE Classpath changed for project: taco-cloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:32:31.543
+!MESSAGE Classpath changed for project: tacocloud-messaging-rabbitmq
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:32:35.216
+!MESSAGE Classpath changed for project: taco-cloud-sd-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:32:48.344
+!MESSAGE Classpath changed for project: auth-server
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-24 14:32:49.723
+!MESSAGE Error checking whether PackageFragmentRoot is on module path!
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): target/generated-test-sources/test-annotations [in auth-server] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getRawClasspathEntry(PackageFragmentRoot.java:613)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeModuleFor(JavaSearchNameEnvironment.java:610)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:300)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:213)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:187)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:95)
+	at org.eclipse.jdt.internal.core.search.indexing.SourceIndexer.resolveDocument(SourceIndexer.java:166)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.resolveDocument(JavaSearchParticipant.java:117)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexResolvedDocument(IndexManager.java:680)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1294)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:527)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-10-24 14:32:49.724
+!MESSAGE target/generated-test-sources/test-annotations [in auth-server] is not on its project's build path
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:32:51.219
+!MESSAGE Classpath changed for project: auth-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:32:51.220
+!MESSAGE Classpath changed for project: rsocket-channel-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:32:53.731
+!MESSAGE Classpath changed for project: rsocket-channel-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:32:53.732
+!MESSAGE Classpath changed for project: rsocket-reqstream-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:32:56.301
+!MESSAGE Classpath changed for project: rsocket-reqstream-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:32:56.304
+!MESSAGE Classpath changed for project: rsocket-reqstream-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:32:58.421
+!MESSAGE Classpath changed for project: rsocket-reqstream-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:32:58.422
+!MESSAGE Classpath changed for project: taco-cloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:03.675
+!MESSAGE Classpath changed for project: taco-cloud-sd-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:03.675
+!MESSAGE Classpath changed for project: tacocloud-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:06.889
+!MESSAGE Classpath changed for project: tacocloud-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:06.890
+!MESSAGE Classpath changed for project: tacocloud-api-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:06.890
+!MESSAGE Classpath changed for project: tacocloud-data
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:09.882
+!MESSAGE Classpath changed for project: tacocloud-data
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:09.882
+!MESSAGE Classpath changed for project: tacocloud-email
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:12.399
+!MESSAGE Classpath changed for project: tacocloud-email
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:12.399
+!MESSAGE Classpath changed for project: tacocloud-kitchen
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:12.401
+!MESSAGE Classpath changed for project: tacocloud-messaging-kafka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:15.112
+!MESSAGE Classpath changed for project: tacocloud-messaging-kafka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:15.113
+!MESSAGE Classpath changed for project: tacocloud-messaging-rabbitmq
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:15.113
+!MESSAGE Classpath changed for project: tacocloud-messaging-rabbitmq-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:19.654
+!MESSAGE Classpath changed for project: tacocloud-messaging-rabbitmq-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:19.655
+!MESSAGE Classpath changed for project: tacocloud-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:22.082
+!MESSAGE Classpath changed for project: tacocloud-restclient-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:23.893
+!MESSAGE Classpath changed for project: tacocloud-restclient-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:23.899
+!MESSAGE Classpath changed for project: tacocloud-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:26.690
+!MESSAGE Classpath changed for project: tacocloud-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:26.691
+!MESSAGE Classpath changed for project: tacocloud-security-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:29.472
+!MESSAGE Classpath changed for project: tacocloud-web-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:29.745
+!MESSAGE Classpath changed for project: tacocloud-web-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:33:37.788
+!MESSAGE Classpath changed for project: taco-cloud-sd-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:34:13.678
+!MESSAGE Classpath changed for project: taco-cloud-sd-cassandra
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:34:27.868
+!MESSAGE Classpath changed for project: taco-cloud-sd-jdbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:35:02.582
+!MESSAGE Classpath changed for project: hello-reactive
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:35:11.068
+!MESSAGE Classpath changed for project: tacocloud-data-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:07.620
+!MESSAGE Classpath changed for project: admin-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:09.389
+!MESSAGE Classpath changed for project: hello-reactive
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:11.931
+!MESSAGE Classpath changed for project: rsocket-channel-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:13.761
+!MESSAGE Classpath changed for project: rsocket-channel-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:13.762
+!MESSAGE Classpath changed for project: rsocket-reqres-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:16.078
+!MESSAGE Classpath changed for project: rsocket-reqres-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:16.078
+!MESSAGE Classpath changed for project: taco-cloud-sfc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:20.017
+!MESSAGE Classpath changed for project: taco-cloud-sfc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:20.017
+!MESSAGE Classpath changed for project: tacocloud-data-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:22.518
+!MESSAGE Classpath changed for project: tacocloud-domain-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:22.523
+!MESSAGE Classpath changed for project: tacocloud-email-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:25.452
+!MESSAGE Classpath changed for project: tacocloud-email-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:25.453
+!MESSAGE Classpath changed for project: tacocloud-kitchen-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:30.264
+!MESSAGE Classpath changed for project: tacocloud-kitchen-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:30.271
+!MESSAGE Classpath changed for project: tacocloud-messaging-jms-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:30.272
+!MESSAGE Classpath changed for project: tacocloud-messaging-jms-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:30.272
+!MESSAGE Classpath changed for project: tacocloud-messaging-kafka-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:33.113
+!MESSAGE Classpath changed for project: tacocloud-messaging-kafka-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:33.114
+!MESSAGE Classpath changed for project: tacocloud-messaging-noop
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:33.114
+!MESSAGE Classpath changed for project: tacocloud-messaging-rabbitmq-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:35.684
+!MESSAGE Classpath changed for project: tacocloud-messaging-rabbitmq-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:35.685
+!MESSAGE Classpath changed for project: tacocloud-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:39.579
+!MESSAGE Classpath changed for project: tacocloud-security-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:42.017
+!MESSAGE Classpath changed for project: tacocloud-ui
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:47.160
+!MESSAGE Classpath changed for project: tacocloud-ui-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:49.357
+!MESSAGE Classpath changed for project: tacocloud-ui-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:49.357
+!MESSAGE Classpath changed for project: tacocloud-web
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:52.489
+!MESSAGE Classpath changed for project: tacocloud-web
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:52.489
+!MESSAGE Classpath changed for project: tacocloud-web-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:36:54.309
+!MESSAGE Classpath changed for project: tacocloud-web-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:37:52.218
+!MESSAGE Classpath changed for project: rsocket-fireandforget-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:37:52.219
+!MESSAGE Classpath changed for project: rsocket-fireandforget-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:37:54.751
+!MESSAGE Classpath changed for project: rsocket-fireandforget-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:37:54.752
+!MESSAGE Classpath changed for project: rsocket-reqres-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:37:57.979
+!MESSAGE Classpath changed for project: rsocket-reqres-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:37:57.980
+!MESSAGE Classpath changed for project: rsocket-reqres-server-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:37:57.980
+!MESSAGE Classpath changed for project: taco-cloud-sd-jdbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:02.653
+!MESSAGE Classpath changed for project: taco-cloud-sd-jdbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:02.654
+!MESSAGE Classpath changed for project: taco-cloud-sd-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:05.508
+!MESSAGE Classpath changed for project: taco-cloud-sd-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:05.510
+!MESSAGE Classpath changed for project: tacocloud-admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:05.510
+!MESSAGE Classpath changed for project: tacocloud-data-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:11.075
+!MESSAGE Classpath changed for project: tacocloud-data-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:11.076
+!MESSAGE Classpath changed for project: tacocloud-domain
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:11.076
+!MESSAGE Classpath changed for project: tacocloud-email-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:11.077
+!MESSAGE Classpath changed for project: tacocloud-jmx
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:15.451
+!MESSAGE Classpath changed for project: tacocloud-kitchen-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:15.452
+!MESSAGE Classpath changed for project: tacocloud-messaging-jms
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:15.453
+!MESSAGE Classpath changed for project: tacocloud-messaging-kafka-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:18.322
+!MESSAGE Classpath changed for project: tacocloud-messaging-kafka-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:18.323
+!MESSAGE Classpath changed for project: tacocloud-messaging-noop-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:20.222
+!MESSAGE Classpath changed for project: tacocloud-messaging-noop-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:20.223
+!MESSAGE Classpath changed for project: tacocloud-messaging-noop-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:46.779
+!MESSAGE Classpath changed for project: reactor-fun
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:46.780
+!MESSAGE Classpath changed for project: rsocket-reqres-client-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:50.181
+!MESSAGE Classpath changed for project: rsocket-reqres-client-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:50.181
+!MESSAGE Classpath changed for project: taco-cloud-jdbctemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:52.324
+!MESSAGE Classpath changed for project: taco-cloud-jdbctemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:52.325
+!MESSAGE Classpath changed for project: taco-cloud-sd-cassandra
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:55.592
+!MESSAGE Classpath changed for project: taco-cloud-sd-cassandra
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:55.593
+!MESSAGE Classpath changed for project: tacocloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:38:58.675
+!MESSAGE Classpath changed for project: tacocloud-api-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:39:00.421
+!MESSAGE Classpath changed for project: tacocloud-api-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:39:00.422
+!MESSAGE Classpath changed for project: tacocloud-domain-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:39:02.981
+!MESSAGE Classpath changed for project: tacocloud-domain-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:39:02.981
+!MESSAGE Classpath changed for project: tacocloud-restclient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:39:04.766
+!MESSAGE Classpath changed for project: tacocloud-restclient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:39:04.770
+!MESSAGE Classpath changed for project: tacocloud-restclient-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-24 14:39:05.118
+!MESSAGE Classpath changed for project: tacocloud-restclient-mongodb
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2023-10-24 15:03:48.334
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2023-10-25 09:19:27.157
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-25 09:19:27.157
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:36.339
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:835)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:36.392
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:41.315
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:835)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:41.369
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:41.821
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:835)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:41.875
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:42.122
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:835)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:42.175
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:42.280
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:835)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:42.333
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:42.471
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:835)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:42.524
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:42.668
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:835)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:42.720
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:42.858
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:835)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-25 09:19:42.910
+!MESSAGE Could not get trigger characters due to timeout after 50 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:305)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:341)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1249)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:346)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:375)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4866)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4744)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SESSION 2023-10-26 09:16:25.977 -----------------------------------------------
+eclipse.buildId=4.20.0.202309081654
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ZA
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\HP\Documents\Bootcamp\Spring\Workspace -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-26 09:16:27.666
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-10-26 09:16:34.027
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-26 09:16:34.027
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-26 09:16:39.632
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin\javaw.exe
+-cp
+C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/HP/Documents/Bootcamp/Spring/Workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1698304599632
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:39.633
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-26 09:16:39.670
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10560
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-26 09:16:42.032
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HP'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.600
+!MESSAGE Boot project ADDED: admin-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.601
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.610
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.635
+!MESSAGE Boot project ADDED: auth-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.652
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.671
+!MESSAGE Boot project ADDED: hello-reactive
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.693
+!MESSAGE Boot project ADDED: reactor-fun
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.705
+!MESSAGE Boot project ADDED: rsocket-channel-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.798
+!MESSAGE Boot project ADDED: rsocket-channel-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.819
+!MESSAGE Boot project ADDED: rsocket-fireandforget-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.831
+!MESSAGE Boot project ADDED: rsocket-fireandforget-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.845
+!MESSAGE Boot project ADDED: rsocket-reqres-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.856
+!MESSAGE Boot project ADDED: rsocket-reqres-client-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.871
+!MESSAGE Boot project ADDED: rsocket-reqres-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.895
+!MESSAGE Boot project ADDED: rsocket-reqres-server-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.934
+!MESSAGE Boot project ADDED: rsocket-reqstream-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.935
+!MESSAGE Boot project ADDED: rsocket-reqstream-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.943
+!MESSAGE Boot project ADDED: taco-cloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.946
+!MESSAGE Boot project ADDED: taco-cloud-jdbctemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.947
+!MESSAGE Boot project ADDED: taco-cloud-sd-cassandra
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.952
+!MESSAGE Boot project ADDED: taco-cloud-sd-jdbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.961
+!MESSAGE Boot project ADDED: taco-cloud-sd-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:42.999
+!MESSAGE Boot project ADDED: taco-cloud-sd-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.063
+!MESSAGE Boot project ADDED: taco-cloud-sfc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.172
+!MESSAGE Boot project ADDED: tacocloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.183
+!MESSAGE Boot project ADDED: tacocloud-admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.202
+!MESSAGE Boot project ADDED: tacocloud-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.203
+!MESSAGE Boot project ADDED: tacocloud-api-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.216
+!MESSAGE Boot project ADDED: tacocloud-api-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.295
+!MESSAGE Boot project ADDED: tacocloud-data
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.296
+!MESSAGE Boot project ADDED: tacocloud-data-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.296
+!MESSAGE Boot project ADDED: tacocloud-data-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.297
+!MESSAGE Boot project ADDED: tacocloud-domain
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.297
+!MESSAGE Boot project ADDED: tacocloud-domain-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.303
+!MESSAGE Boot project ADDED: tacocloud-domain-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.311
+!MESSAGE Boot project ADDED: tacocloud-email
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.319
+!MESSAGE Boot project ADDED: tacocloud-email-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.327
+!MESSAGE Boot project ADDED: tacocloud-email-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.332
+!MESSAGE Boot project ADDED: tacocloud-jmx
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.345
+!MESSAGE Boot project ADDED: tacocloud-kitchen
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.358
+!MESSAGE Boot project ADDED: tacocloud-kitchen-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.384
+!MESSAGE Boot project ADDED: tacocloud-kitchen-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.391
+!MESSAGE Boot project ADDED: tacocloud-messaging-jms
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.399
+!MESSAGE Boot project ADDED: tacocloud-messaging-jms-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.408
+!MESSAGE Boot project ADDED: tacocloud-messaging-jms-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.414
+!MESSAGE Boot project ADDED: tacocloud-messaging-kafka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.555
+!MESSAGE Boot project ADDED: tacocloud-messaging-kafka-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.695
+!MESSAGE Boot project ADDED: tacocloud-messaging-kafka-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.699
+!MESSAGE Boot project ADDED: tacocloud-messaging-noop
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.700
+!MESSAGE Boot project ADDED: tacocloud-messaging-noop-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.702
+!MESSAGE Boot project ADDED: tacocloud-messaging-noop-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.704
+!MESSAGE Boot project ADDED: tacocloud-messaging-rabbitmq
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.705
+!MESSAGE Boot project ADDED: tacocloud-messaging-rabbitmq-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.732
+!MESSAGE Boot project ADDED: tacocloud-messaging-rabbitmq-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.733
+!MESSAGE Boot project ADDED: tacocloud-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.812
+!MESSAGE Boot project ADDED: tacocloud-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.822
+!MESSAGE Boot project ADDED: tacocloud-restclient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.829
+!MESSAGE Boot project ADDED: tacocloud-restclient-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.838
+!MESSAGE Boot project ADDED: tacocloud-restclient-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.865
+!MESSAGE Boot project ADDED: tacocloud-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.910
+!MESSAGE Boot project ADDED: tacocloud-security-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.912
+!MESSAGE Boot project ADDED: tacocloud-security-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.913
+!MESSAGE Boot project ADDED: tacocloud-web
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.914
+!MESSAGE Boot project ADDED: tacocloud-web-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-26 09:16:43.915
+!MESSAGE Boot project ADDED: tacocloud-web-r2dbc
+
+!ENTRY org.eclipse.jface 2 0 2023-10-26 09:17:27.114
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-26 09:17:27.115
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2023-10-26 09:20:40.533
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-26 09:34:50.214
+!MESSAGE Could get code actions due to timeout after 300 milliseconds in `textDocument/codeAction`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResoultion(LSPCodeActionMarkerResolution.java:154)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:208)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:148)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:138)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.canFix(JavaCorrectionProcessor.java:525)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant.canFix(QuickAssistAssistant.java:130)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.hasQuickFix(DefaultMarkerAnnotationAccess.java:435)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.getImage(DefaultMarkerAnnotationAccess.java:390)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.paint(DefaultMarkerAnnotationAccess.java:266)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doPaint1(AnnotationRulerColumn.java:793)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:530)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:260)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1627)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4801)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2023-10-26 11:00:30.756
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2023-10-26 11:01:35.460
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-10-27 09:17:04.430 -----------------------------------------------
+eclipse.buildId=4.20.0.202309081654
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ZA
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\HP\Documents\Bootcamp\Spring\Workspace -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-27 09:17:06.173
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-10-27 09:17:12.527
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-27 09:17:12.528
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-27 09:17:19.110
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin\javaw.exe
+-cp
+C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/HP/Documents/Bootcamp/Spring/Workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1698391039109
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:19.112
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-27 09:17:19.350
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 14972
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-27 09:17:25.798
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HP'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.931
+!MESSAGE Boot project ADDED: admin-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.932
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.934
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.935
+!MESSAGE Boot project ADDED: auth-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.936
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.938
+!MESSAGE Boot project ADDED: hello-reactive
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.943
+!MESSAGE Boot project ADDED: reactor-fun
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.944
+!MESSAGE Boot project ADDED: rsocket-channel-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.945
+!MESSAGE Boot project ADDED: rsocket-channel-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.946
+!MESSAGE Boot project ADDED: rsocket-fireandforget-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.947
+!MESSAGE Boot project ADDED: rsocket-fireandforget-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.948
+!MESSAGE Boot project ADDED: rsocket-reqres-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.949
+!MESSAGE Boot project ADDED: rsocket-reqres-client-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.950
+!MESSAGE Boot project ADDED: rsocket-reqres-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.952
+!MESSAGE Boot project ADDED: rsocket-reqres-server-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.953
+!MESSAGE Boot project ADDED: rsocket-reqstream-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.954
+!MESSAGE Boot project ADDED: rsocket-reqstream-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.955
+!MESSAGE Boot project ADDED: taco-cloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.956
+!MESSAGE Boot project ADDED: taco-cloud-jdbctemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.957
+!MESSAGE Boot project ADDED: taco-cloud-sd-cassandra
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.959
+!MESSAGE Boot project ADDED: taco-cloud-sd-jdbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.961
+!MESSAGE Boot project ADDED: taco-cloud-sd-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.962
+!MESSAGE Boot project ADDED: taco-cloud-sd-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.963
+!MESSAGE Boot project ADDED: taco-cloud-sfc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.966
+!MESSAGE Boot project ADDED: tacocloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.967
+!MESSAGE Boot project ADDED: tacocloud-admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.967
+!MESSAGE Boot project ADDED: tacocloud-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.968
+!MESSAGE Boot project ADDED: tacocloud-api-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.969
+!MESSAGE Boot project ADDED: tacocloud-api-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.969
+!MESSAGE Boot project ADDED: tacocloud-data
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.970
+!MESSAGE Boot project ADDED: tacocloud-data-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.971
+!MESSAGE Boot project ADDED: tacocloud-data-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.972
+!MESSAGE Boot project ADDED: tacocloud-domain
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.973
+!MESSAGE Boot project ADDED: tacocloud-domain-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.975
+!MESSAGE Boot project ADDED: tacocloud-domain-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.977
+!MESSAGE Boot project ADDED: tacocloud-email
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.978
+!MESSAGE Boot project ADDED: tacocloud-email-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.980
+!MESSAGE Boot project ADDED: tacocloud-email-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.982
+!MESSAGE Boot project ADDED: tacocloud-jmx
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.986
+!MESSAGE Boot project ADDED: tacocloud-kitchen
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.987
+!MESSAGE Boot project ADDED: tacocloud-kitchen-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.988
+!MESSAGE Boot project ADDED: tacocloud-kitchen-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.988
+!MESSAGE Boot project ADDED: tacocloud-messaging-jms
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.989
+!MESSAGE Boot project ADDED: tacocloud-messaging-jms-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.990
+!MESSAGE Boot project ADDED: tacocloud-messaging-jms-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.997
+!MESSAGE Boot project ADDED: tacocloud-messaging-kafka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.998
+!MESSAGE Boot project ADDED: tacocloud-messaging-kafka-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.999
+!MESSAGE Boot project ADDED: tacocloud-messaging-kafka-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:25.999
+!MESSAGE Boot project ADDED: tacocloud-messaging-noop
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.000
+!MESSAGE Boot project ADDED: tacocloud-messaging-noop-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.005
+!MESSAGE Boot project ADDED: tacocloud-messaging-noop-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.006
+!MESSAGE Boot project ADDED: tacocloud-messaging-rabbitmq
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.011
+!MESSAGE Boot project ADDED: tacocloud-messaging-rabbitmq-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.012
+!MESSAGE Boot project ADDED: tacocloud-messaging-rabbitmq-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.013
+!MESSAGE Boot project ADDED: tacocloud-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.014
+!MESSAGE Boot project ADDED: tacocloud-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.015
+!MESSAGE Boot project ADDED: tacocloud-restclient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.016
+!MESSAGE Boot project ADDED: tacocloud-restclient-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.017
+!MESSAGE Boot project ADDED: tacocloud-restclient-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.018
+!MESSAGE Boot project ADDED: tacocloud-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.018
+!MESSAGE Boot project ADDED: tacocloud-security-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.019
+!MESSAGE Boot project ADDED: tacocloud-security-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.020
+!MESSAGE Boot project ADDED: tacocloud-web
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.020
+!MESSAGE Boot project ADDED: tacocloud-web-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 09:17:26.022
+!MESSAGE Boot project ADDED: tacocloud-web-r2dbc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-27 09:17:44.254
+!MESSAGE executing callback sts4.classpath.zOVmdHGf FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-10-27 09:17:44.255
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:31)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2023-10-27 09:19:36.939
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-27 09:19:36.939
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2023-10-27 11:33:46.652 -----------------------------------------------
+eclipse.buildId=4.20.0.202309081654
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ZA
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\HP\Documents\Bootcamp\Spring\Workspace -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-27 11:33:48.370
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-10-27 11:33:56.903
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-27 11:33:56.903
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-27 11:34:08.735
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HP'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:09.747
+!MESSAGE Boot project ADDED: admin-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:09.748
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:09.752
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:09.811
+!MESSAGE Boot project ADDED: auth-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-27 11:34:09.887
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin\javaw.exe
+-cp
+C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\HP\Downloads\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/HP/Documents/Bootcamp/Spring/Workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1698399249884
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:09.889
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:09.907
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-27 11:34:09.915
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 13156
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:09.923
+!MESSAGE Boot project ADDED: hello-reactive
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:09.964
+!MESSAGE Boot project ADDED: reactor-fun
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:09.975
+!MESSAGE Boot project ADDED: rsocket-channel-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:10.458
+!MESSAGE Boot project ADDED: rsocket-channel-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:10.475
+!MESSAGE Boot project ADDED: rsocket-fireandforget-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:10.476
+!MESSAGE Boot project ADDED: rsocket-fireandforget-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:10.482
+!MESSAGE Boot project ADDED: rsocket-reqres-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:10.494
+!MESSAGE Boot project ADDED: rsocket-reqres-client-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:10.505
+!MESSAGE Boot project ADDED: rsocket-reqres-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:10.516
+!MESSAGE Boot project ADDED: rsocket-reqres-server-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:10.566
+!MESSAGE Boot project ADDED: rsocket-reqstream-client
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:10.763
+!MESSAGE Boot project ADDED: rsocket-reqstream-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:10.766
+!MESSAGE Boot project ADDED: taco-cloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:10.767
+!MESSAGE Boot project ADDED: taco-cloud-jdbctemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:10.773
+!MESSAGE Boot project ADDED: taco-cloud-sd-cassandra
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:10.785
+!MESSAGE Boot project ADDED: taco-cloud-sd-jdbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:10.794
+!MESSAGE Boot project ADDED: taco-cloud-sd-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:10.802
+!MESSAGE Boot project ADDED: taco-cloud-sd-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.068
+!MESSAGE Boot project ADDED: taco-cloud-sfc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.112
+!MESSAGE Boot project ADDED: tacocloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.116
+!MESSAGE Boot project ADDED: tacocloud-admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.119
+!MESSAGE Boot project ADDED: tacocloud-api
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.137
+!MESSAGE Boot project ADDED: tacocloud-api-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.139
+!MESSAGE Boot project ADDED: tacocloud-api-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.159
+!MESSAGE Boot project ADDED: tacocloud-data
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.168
+!MESSAGE Boot project ADDED: tacocloud-data-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.276
+!MESSAGE Boot project ADDED: tacocloud-data-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.339
+!MESSAGE Boot project ADDED: tacocloud-domain
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.341
+!MESSAGE Boot project ADDED: tacocloud-domain-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.349
+!MESSAGE Boot project ADDED: tacocloud-domain-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.362
+!MESSAGE Boot project ADDED: tacocloud-email
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.372
+!MESSAGE Boot project ADDED: tacocloud-email-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.382
+!MESSAGE Boot project ADDED: tacocloud-email-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.387
+!MESSAGE Boot project ADDED: tacocloud-jmx
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.698
+!MESSAGE Boot project ADDED: tacocloud-kitchen
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.702
+!MESSAGE Boot project ADDED: tacocloud-kitchen-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.702
+!MESSAGE Boot project ADDED: tacocloud-kitchen-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.705
+!MESSAGE Boot project ADDED: tacocloud-messaging-jms
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.706
+!MESSAGE Boot project ADDED: tacocloud-messaging-jms-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.709
+!MESSAGE Boot project ADDED: tacocloud-messaging-jms-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.710
+!MESSAGE Boot project ADDED: tacocloud-messaging-kafka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.712
+!MESSAGE Boot project ADDED: tacocloud-messaging-kafka-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.718
+!MESSAGE Boot project ADDED: tacocloud-messaging-kafka-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.725
+!MESSAGE Boot project ADDED: tacocloud-messaging-noop
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.735
+!MESSAGE Boot project ADDED: tacocloud-messaging-noop-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.737
+!MESSAGE Boot project ADDED: tacocloud-messaging-noop-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.737
+!MESSAGE Boot project ADDED: tacocloud-messaging-rabbitmq
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.738
+!MESSAGE Boot project ADDED: tacocloud-messaging-rabbitmq-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.755
+!MESSAGE Boot project ADDED: tacocloud-messaging-rabbitmq-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.756
+!MESSAGE Boot project ADDED: tacocloud-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.757
+!MESSAGE Boot project ADDED: tacocloud-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.758
+!MESSAGE Boot project ADDED: tacocloud-restclient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.762
+!MESSAGE Boot project ADDED: tacocloud-restclient-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.766
+!MESSAGE Boot project ADDED: tacocloud-restclient-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.769
+!MESSAGE Boot project ADDED: tacocloud-security
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.771
+!MESSAGE Boot project ADDED: tacocloud-security-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.776
+!MESSAGE Boot project ADDED: tacocloud-security-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.801
+!MESSAGE Boot project ADDED: tacocloud-web
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.811
+!MESSAGE Boot project ADDED: tacocloud-web-mongodb
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 11:34:11.814
+!MESSAGE Boot project ADDED: tacocloud-web-r2dbc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 12:05:41.906
+!MESSAGE Classpath changed for project: taco-cloud
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-27 12:05:41.906
+!MESSAGE Boot project REMOVED: taco-cloud
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-27 12:05:41.908
+!MESSAGE executing callback sts4.classpath.SaNRWpyz FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-10-27 12:05:41.910
+!MESSAGE Cannot invoke "org.eclipse.lsp4e.LanguageServerPlugin.getLog()" because the return value of "org.eclipse.lsp4e.LanguageServerPlugin.getDefault()" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.lsp4e.LanguageServerPlugin.getLog()" because the return value of "org.eclipse.lsp4e.LanguageServerPlugin.getDefault()" is null
+	at org.eclipse.lsp4e.LanguageServerPlugin.logError(LanguageServerPlugin.java:68)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilities(LanguageServerWrapper.java:812)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.capabilitiesComply(LanguageServiceAccessor.java:205)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getStartedWrappers(LanguageServiceAccessor.java:415)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerProjectExecutor.getServers(LanguageServers.java:316)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:403)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:152)
+	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:129)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:29)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-10-27 12:05:42.400
+!MESSAGE The workspace will exit with unsaved changes in this session.
